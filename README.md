@@ -19,7 +19,7 @@ python -m spacy download en_core_web_sm
 
 ## Nutzung
 
-Datensatz `complaints_processed.csv` ins Projektverzeichnis legen und das Notebook ausführen:
+[Datensatz](https://github.com/halpert3/complaint-content-classification-nlp/blob/main/project_data/complaints_processed.csv) `complaints_processed.csv` ins Projektverzeichnis legen und das Notebook ausführen:
 
 ```bash
 jupyter notebook complaints_topic_modeling.ipynb
