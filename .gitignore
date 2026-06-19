@@ -1,0 +1,23 @@
+# Daten (zu groß / nicht im Repo)
+*.csv
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# spaCy / Modelle
+*.model
+*.model.*
+*.npy
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
