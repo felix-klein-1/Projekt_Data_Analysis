@@ -1,6 +1,6 @@
 # Themenextraktion aus Kundenbeschwerden (NLP)
 
-Extraktion wiederkehrender Themen aus dem *Consumer Complaints Dataset for NLP* (Kaggle)
+Extraktion wiederkehrender Themen aus dem complaint-content-classification-nlp-Datensatz
 mittels Vorverarbeitung, Vektorisierung (TF-IDF & Word2Vec) und Themenmodellierung (LDA & NMF).
 
 ## Pipeline
@@ -25,7 +25,7 @@ python -m spacy download en_core_web_sm
 jupyter notebook complaints_topic_modeling.ipynb
 ```
 
-## Dateien
+## Benötigte Dateien
 
 - `complaints_topic_modeling.ipynb` – Notebook mit der gesamten Analyse
 - `requirements.txt` – benötigte Python-Bibliotheken
